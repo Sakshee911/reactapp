@@ -1,0 +1,65 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-color: rgba(1000, 107, 194, 0.377);
+  color: black;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navitems h2 {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navitems button {
+  width: 30%;
+  height: 10vh;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background: rgb(19, 8, 8);
+  color: rgb(242, 243, 248);
+  font-family: serif;
+  font-size: 20px;
+  margin: auto 0px;
+}
+.fetchbtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(40, 160, 100);
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  /* background-image: url("/img/first.jpg"); */
+  background-color: rgb(136, 205, 223);
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.name:hover {
+  color: rgb(21, 14, 116);
+}
+.avatar {
+  border-radius: 40%;
+}
+.profile_cont {
+  border-radius: 95%;
+  background-color: rgb(14, 7, 7);
+  color: white;
+  margin: 60px;
+  padding: 35px;
+  width: 25%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
